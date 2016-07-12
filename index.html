@@ -17,6 +17,30 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
     <style>
+		    		/* tell the container's children to float left: */
+		.float-my-children > * {
+		    float:left;
+		    margin-right:5px;
+		}
+		
+		/* this is called a clearfix. it makes sure that the container's children floats are cleared, without using extra markup */
+		
+		.clearfix {
+		    *zoom:1 /* for IE */
+		}
+		
+		.clearfix:before,
+		.clearfix:after {
+		    content: " ";
+		    display: table;
+		}
+		
+		.clearfix:after {
+		    clear: both;
+		}
+		
+		/* end clearfix*/
+
     		.navbar-brand {
     			font-weight:bold;
     			font-size:140%;
@@ -220,9 +244,10 @@
   		și plăcut. Cu ajutorul echipei noastre formată din medici specialiști, ne asigurăm că pacienții beneficiază
   		de tratamente de cea mai bună calitate la tarife competitive.</p>
   	<br></br>
-  	<img src="roundpp.png"/>
   	
-  	<p class="lead text2"><b>Dr. Marius Pernea - Administrator MEDICASON</b><br></br>
+  	<div class="clearfix float-my-children">
+   		<img src="roundpp.png"/>
+   		<p class="lead text2"><b>Dr. Marius Pernea - Administrator MEDICASON</b><br></br>
   		Lorem Ipsum is simply dummy text of the printing and typesetting 
   		industry. Lorem Ipsum has been the industry's standard dummy text ever since the 
   		1500s, when an unknown printer took a galley of type and scrambled it to make a 
@@ -231,6 +256,10 @@
   		1960s with the release of Letraset sheets containing Lorem Ipsum passages, and 
   		more recently with desktop publishing software like Aldus PageMaker including 
   		versions of Lorem Ipsum. </p>
+	</div>
+  	
+  	
+  	
   		
   		<img src="background8.jpg" />
   	</div>
