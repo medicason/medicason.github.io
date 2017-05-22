@@ -1,0 +1,198 @@
+html {
+  cursor:default;
+}
+.container {
+  width:100%:
+
+}
+.navbar-brand {
+  padding-top:0px;
+
+}
+.navbar-brand img {
+  height:50px;
+}
+
+
+.nav {
+  background-color: white;
+  margin-bottom:0px;
+
+
+}
+
+.navbar {
+
+  width: 90%;
+  margin: 0 auto;
+}
+
+.navbar-nav {
+  float:right;
+
+}
+
+.nav ul li a {
+  font-family:'Aller','Lato', sans-serif;
+  /*font-weight: bold;*/
+  color: #0c397f;
+  font-size:1.2em;
+}
+
+.nav ul li a:hover {
+  background-color: #4daded;
+
+
+}
+
+.navbar-toggle {
+  background-color: white;
+  border:1px solid #0c397f;
+}
+
+.icon-bar {
+  background-color:#0c397f;
+}
+
+#header {
+  background:url('images/ultrasound3.jpg') no-repeat center center;
+  height: 603px;
+}
+
+#banner_middle {
+
+  background:url('images/banner22.jpg') no-repeat center center;
+
+}
+
+
+
+#header-image {
+  float:left;
+  filter:blur(2px);
+  filter:brightness(50%);
+}
+
+#medicasontext {
+  color:white;
+  text-align:center;
+  letter-spacing:0.5px;
+  font-weight: 100;
+  font-family:'Aller','Lato', sans-serif;
+  margin:50px auto;
+  font-size:1.5em;
+  width:80%;
+  line-height: 1.8
+}
+
+@media (max-width:650px) {
+  #medicasontext {
+    font-size:1.1em;
+  }
+
+  .navbar-nav {
+
+    float:left;
+    text-align:center;
+
+  }
+}
+
+.row {
+  width:90%;
+  margin: 0 auto;
+}
+
+#middle {
+  background-color:#011e50;
+  width:90%;
+
+}
+
+#middle h3 {
+  color:white;
+  padding-bottom: 5px;
+}
+
+.eco_titlu {
+  padding-top:10px;
+}
+
+.eco_text {
+  color:white;
+  font-weight: 300;
+}
+
+
+#middle_text_1 {
+  text-align:center;
+  color:white;
+  margin: 40px 50px 0 50px;
+  font-size:1.2em;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+}
+
+#logoeco {
+  height:1.8em;
+  width:auto;
+  float:left;
+  padding-right:3px;
+
+}
+
+.blue {
+  color:#143f83;
+}
+
+#map {
+        width: 350px;
+        height: 300px;
+        /*background-color: grey;*/
+        border: 2px solid #143f83;
+        border-radius: 5px;
+        margin-bottom:2 0px;
+
+}
+
+#contact i {
+  vertical-align: middle;
+}
+
+#phone {
+  display: inline;
+  margin-left:20px;
+  font-size:1.2em;
+  letter-spacing: 2px;
+  font-weight: 300;
+}
+
+#email {
+  display: inline;
+  font-size:1.2em;
+
+  margin-left:12px;
+  letter-spacing: 2px;
+  font-weight: 300;
+}
+
+#bottomrow {
+  width:100%;
+  text-align: center;
+  margin:0 0 15px 0;
+  height:75px;
+  border-top: 1px solid #98bae1;
+  border-bottom: 1px solid #98bae1;
+}
+
+#logobottomrow_medicason {
+  margin-top:8px;
+  height:55px;
+  padding-right:20px;
+}
+
+#logobottomrow_MP {
+  margin-top:8px;
+
+  height:55px;
+}
